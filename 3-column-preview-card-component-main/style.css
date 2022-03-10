@@ -1,0 +1,89 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.container {
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  /* background-color: red; */
+  /* color: white; */
+  display: flex;
+  border-radius: 10px;
+  width: 66%;
+}
+
+.card {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.logo {
+  margin-bottom: 50px;
+}
+
+.header {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.paragraph {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.button {
+  background-color: hsl(0, 0%, 95%);
+  padding: 15px 25px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  display: inline-block;
+  border-radius: 40px;
+  width: max-content;
+}
+
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.sedan .button {
+  color: hsl(31, 77%, 52%);
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.suv .button {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.luxury .button {
+  color: hsl(179, 100%, 13%);
+}
